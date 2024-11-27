@@ -3,20 +3,67 @@
 <head>
    
     <title>Facebook.SignUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    font-size: 20;
+}
+.btn{
+    background-color:rgb(8, 106, 186);
+    width: 370px;
+    height: 38;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 4px;
+}
+.inp{
+    width: 370;
+    height: 38;
+    margin: 4px;
+    border: 1.15px solid rgb(150, 148, 148);
+    border-radius: 3px;
+}
+.box{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+}
+    </style>
 </head>
-<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"><center>
-    <h1 style="color: rgb(8, 106, 186);">Facebook</h1>
-    <h2 style="color: rgb(8, 106, 186);">Login into Facebook</h2>
+
+<body class="roboto-thin" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color: rgb(234, 234, 234);"><center>
+    <div style="margin-top: 50px;" class="nav"></div>
+
+    <h1 style="color: rgb(8, 106, 186); font-size: 45px">Facebook</h1>
+    <div class="box">
+
+    <p style="padding: 15px;font-size: 24px;">Login into Facebook</p>
+
+
+
     <form action="">
         
-        <input type="text" placeholder="Email">
+        <input class="inp" type="text" placeholder="&nbsp Email"><br>
+        
+        <input class="inp" type="text" placeholder="&nbsp Password"><br>
+        
+        <button class="btn">LogIn</button><br>
         <br>
-        <br>
-        <input type="text" placeholder="password"><br>
-        <br>
-        <button>Submit</button>
-      <h6>Forgotten account? · Sign up for Facebook</h6>
+      <a style="color:rgb(8, 106, 186);font-weight: bolder; font-size: 11;font-size: 16px;" href="">Forgotten account? · Sign up for Facebook</a>
 </form>
+</div>
 </center>
 </body>
 </html>
