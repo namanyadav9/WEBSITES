@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(241, 240, 245);
+margin-top: 150px;
+}
+.container{
+    display: flex;
+    margin-left: 220px;
+    gap: 10px;
+}
+.half1{
+    background-color: antiquewhite;
+background-image: url("https://www.nasa.gov/wp-content/uploads/2024/11/thanksgiving-2024-20-thanksgiving-2014.jpg");
+    height: 500px;
+    width: 700px;
+}
+.half2{
+    width: 350px;
+    height: 500px;
+    display: flex;
+background-image: url("https://science.nasa.gov/wp-content/uploads/2024/11/hotneptune-1280c.jpeg");
+background-position: center;
+    background-color: brown;
+}
+.half3{
+    background-color: cadetblue;
+    height: 500px;
+    width: 350px;
+    
+}
+.halfsub1{
+    width: 350px;
+    height:250px;
+    /* background-color: grey !important; */
+    background-image: url("https://science.nasa.gov/wp-content/uploads/2024/11/sanaa-oli-20240608-1440.jpg");
+}
+.halfsub2{
+    width: 350px;
+    height:250px;
+    /* background-color: rgb(172, 26, 26) !important; */
+    background-image: url("https://www.nasa.gov/wp-content/uploads/2024/11/1-pia26443-spacecraft-illustration.jpg?resize=1024,576");
+    background-position: center;
+}
